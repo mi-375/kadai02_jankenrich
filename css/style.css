@@ -1,0 +1,300 @@
+body{
+    font-family: sans-serif;
+    width: 800px;
+    margin: auto;
+}
+
+.header img{
+    width: 800px;
+    height: 190px;
+    position: relative;
+    z-index: 1;
+
+}
+.title img{
+    font-size: 30px;
+    font-weight:bold;
+    position: absolute;
+    z-index: 2;
+    width: 700px;
+    height: 700px;
+    margin-left: 120px;
+    margin-top: -230px;
+}
+
+.howto{
+    font-weight: bold;
+    display: flex;
+    font-size: 18px;
+}
+.howto img{
+width: 250px;
+height: 250px;
+margin-left: 100px;
+}
+
+.howto-text{
+margin-left: 40px;
+}
+
+.question{
+    font-size: 25px;
+    text-align:center ;
+    /* margin-left: 40px; */
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight:bold;
+}
+
+.q1{
+    background: #f5f3f3; 
+    padding: 15px 5px 10px 15px;
+    margin-top: 30px;
+    border-radius: 20px;
+    position: relative;
+    z-index: 1;
+    /* 一番下になるように */
+}
+.q2{
+    background: #f5f3f3; 
+    margin-top: 40px;
+    padding: 15px 5px 10px 15px;
+    border-radius: 20px;
+}
+
+.nagakuma img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none; 
+    margin-left: -15px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+.nagakuma2 img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    z-index: 2;
+    pointer-events: none; 
+    margin-left: 600px;
+    margin-bottom: 100px;
+    margin-top: 35px;
+}
+.weather {
+    display: flex;
+    justify-content: center;
+}
+
+#sunny{
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+
+    /* border: ; */
+    background: white;
+    color: black;
+    width: 200px;
+    height: 80px;
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffd61a; /
+}
+
+.sunny button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#cloudy{
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    /* border: ; */
+    background: #fafafa;
+    color: black;
+    width: 200px;
+    height: 80px;
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffd61a; /
+}
+.cloudy button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#rainy{
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    /* border: ; */
+    background: #fafafa;
+    color: black;
+    width: 200px;
+    height: 80px;
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffd61a; }
+
+.rainy button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.feeling{
+    display: flex;
+    justify-content: center;
+}
+
+#good{
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    /* border: ; */
+    background: #fafafa;
+    color: black;
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffd61a; 
+}
+.good button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#soso{
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    /* border: ; */
+    background: #fafafa;
+    color: black;
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffd61a; 
+}
+.soso button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#bad{
+    font-weight: bold;
+    font-size: 18px;
+    width: 200px;
+    height: 80px;
+    /* border: ; */
+    background: #fafafa;
+    color: black;
+    display: flex    ;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 30px 30px 30px;
+    border-radius: 20px;
+    border: 2px solid #ffd61a; 
+}
+.bad button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+#start{
+font-weight: bold;
+font-size: 25px;
+border: #ffd61a;
+background: #ffd61a;
+color: white;
+width: 250px;
+height: 60px;
+border-radius: 30px;
+}
+
+.start{
+    margin-top: 40px;
+    margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+.start button:hover{
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+button.selected {
+    background-color: #ffcc99 !important;
+    border: 2px solid #ff9900 !important;
+    color: black !important;
+}
+
+
+.result-button{
+    display: flex;
+    justify-content: space-between;
+}
+#back-button {
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    background: #ffd61a;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 60px;
+    margin-left:25px ;
+}
+
+#back-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+#ok-button {
+    font-weight: bold;
+    font-size: 25px;
+    border: none;
+    background: #ffd61a;
+    color: white;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 60px;
+}
+
+#ok-button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
