@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日なにする？</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <audio id="bgm" src="mp/bgm.mp3" autoplay loop></audio>
+    <div>
+        <div class="header">
+            <p class="title">
+            </p>
+            <img src="img/titlekuma.png" id="header"    alt="ヘッダーに入れる写真">
+        
+        </div>
+
+        <div id="question-area">
+        <div class="howto">
+            <div class="howto-text">
+                <p>
+                    使い方
+                </p>
+                <p>
+                    ①今日の天気を選択
+                </p>
+                <p>
+                    ②今の気分を選択
+                </p>
+                <p>
+                    ③スタートボタンを押す
+                </p>
+                <p>
+                    →今日のおすすめの過ごし方を提案するよ☺︎
+                </p>
+            </div>    
+            <img src="img/howto.png" id="howto" alt="使い方のイメージのイラスト">
+        
+
+        </div>
+ 
+    <div class="nagakuma">
+        <img src="img/nagakuma2.png" alt="眺めるくまのイラスト">
+        </div>
+    <div class="q1">
+        <p class="question"> 
+            今日の天気をおしえて〜！
+        </p>
+
+        <div class="weather">
+            <p class="sunny">
+                <button id="sunny">晴れ</button>
+            </p>
+            <p class="cloudy">
+                <button id="cloudy">くもり</button>
+            </p>
+            <p class="rainy">
+                <button id="rainy">雨</button>
+            </p>
+        </div>
+
+    </div>
+    <div class="nagakuma2">
+        <img src="img/nagakuma1.png" alt="眺めるくまのイラスト">
+        </div>
+    <div class="q2">
+        <p class="question"> 
+            今の気分はどんな感じ？
+        </p>
+        <div class="feeling">
+            <p class="good">
+                <button id="good">いい感じ！！</button>
+            </p>
+            <p class="soso">
+                <button id="soso">まあまあかな</button>
+            </p>
+            <p class="bad">
+                <button id="bad">びみょー…</button>
+            </p>
+        </div>
+
+    </div>
+    <div class="start">
+        <button id="start">START</button>
+
+        
+    </div> 
+    </div>
+    <div id="thinking-area" style="display: none; text-align: center;">
+        <img src="img/thinking.png" >
+    </div>
+
+    <div id="yokatta-area" style="display: none; text-align: center;">
+        <img src="img/happy.png" alt="よかった！楽しんで〜" >
+    </div>
+
+    <div id="result-area" style="display: none; text-align: center; margin-top: 30px;">
+        <p id="result-text" style="font-size: 35px; font-weight: bold;"></p>
+        <img id="result-image" src="" alt="おすすめ画像" style="max-width: 400px; margin-top: 20px;">
+        <br>
+        <div class="result-butoon">
+        <button id="ok-button" style="margin-top: 20px; font-size: 18px;">いいじゃん！！</button>
+        <button id="back-button" style="margin-top: 20px; font-size: 18px;">気分じゃないよ〜</button>
+    </div>
+    </div>
+</div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/test.js"></script>
+</body>
+</html>
